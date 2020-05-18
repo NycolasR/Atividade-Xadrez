@@ -149,8 +149,10 @@ if __name__ == "__main__":
     from random import randint as r
     
     tabuleiro = cria_matriz('     ')
-    tabuleiro = posicionar_rainha(r(1, 7), r(1, 7), tabuleiro)
+    tabuleiro = posicionar_rainha(3, 3, tabuleiro)
     tabuleiro = marque_atacadas(tabuleiro)
+    print()
+    print()
     for lin in tabuleiro:
         print(lin)
         print()
