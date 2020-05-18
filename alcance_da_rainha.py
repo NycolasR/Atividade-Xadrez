@@ -151,8 +151,6 @@ if __name__ == "__main__":
     tabuleiro = cria_matriz('     ')
     tabuleiro = posicionar_rainha(3, 3, tabuleiro)
     tabuleiro = marque_atacadas(tabuleiro)
-    print()
-    print()
     for lin in tabuleiro:
         print(lin)
         print()
